@@ -1,0 +1,15 @@
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/label_studio_helper
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/data/icudtl.dat
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/lib/libflutter_linux_gtk.so
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/lib/libfile_saver_plugin.so
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/data/flutter_assets/AssetManifest.json
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/data/flutter_assets/NOTICES.Z
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/data/flutter_assets/version.json
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/data/flutter_assets/AssetManifest.bin
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/data/flutter_assets/AssetManifest.bin.json
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/data/flutter_assets/FontManifest.json
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/data/flutter_assets/NOTICES
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/mnt/docker-data/projetos/flutter/label_studio_helper_com_build/build/linux/x64/release/bundle/lib/libapp.so
