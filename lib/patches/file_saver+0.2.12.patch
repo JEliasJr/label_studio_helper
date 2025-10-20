@@ -1,0 +1,9 @@
+--- a/lib/src/utils/helpers.dart
++++ b/lib/src/utils/helpers.dart
+@@ -56,5 +56,5 @@
+ /// It will return the [Uint8List] of the file.
+ Future<Uint8List> getBytes(String path) async {
+   final file = File(path);
+-  return file.readAsBytes();
++  return await file.readAsBytes();
+ }

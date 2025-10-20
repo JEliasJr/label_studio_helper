@@ -1,0 +1,29 @@
+name: label_studio_helper
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+  # A linha do file_saver foi removida daqui de propósito.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# ESTA SEÇÃO DIZ AO FLUTTER PARA USAR SUA VERSÃO LOCAL CORRIGIDA.
+dependency_overrides:
+  file_saver:
+    path: local_packages/file_saver
+
+flutter:
+  uses-material-design: true
