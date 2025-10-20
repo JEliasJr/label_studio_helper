@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Projetos\Flutter_cods\label_studio_helper\windows\flutter\ephemeral\.plugin_symlinks\file_saver\windows\file_saver_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Projetos\Flutter_cods\label_studio_helper\windows\flutter\ephemeral\.plugin_symlinks\file_saver\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FE6BA61D-1E8B-313A-AED1-F5B8292B702E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

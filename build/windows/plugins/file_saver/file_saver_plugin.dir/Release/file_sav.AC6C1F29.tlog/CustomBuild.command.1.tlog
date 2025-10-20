@@ -1,0 +1,10 @@
+^D:\PROJETOS\FLUTTER_CODS\LABEL_STUDIO_HELPER\WINDOWS\FLUTTER\EPHEMERAL\.PLUGIN_SYMLINKS\FILE_SAVER\WINDOWS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Projetos/Flutter_cods/label_studio_helper/windows -BD:/Projetos/Flutter_cods/label_studio_helper/build/windows --check-stamp-file D:/Projetos/Flutter_cods/label_studio_helper/build/windows/plugins/file_saver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

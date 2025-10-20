@@ -1,0 +1,28 @@
+^D:\PROJETOS\FLUTTER_CODS\LABEL_STUDIO_HELPER\BUILD\WINDOWS\CMAKEFILES\0FE2A3B71AD13B8214B01B2C6CD6C979\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\Flutter\flutter PROJECT_DIR=D:\Projetos\Flutter_cods\label_studio_helper FLUTTER_ROOT=D:\Flutter\flutter FLUTTER_EPHEMERAL_DIR=D:\Projetos\Flutter_cods\label_studio_helper\windows\flutter\ephemeral PROJECT_DIR=D:\Projetos\Flutter_cods\label_studio_helper FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=D:\Projetos\Flutter_cods\label_studio_helper\.dart_tool\package_config.json D:/Flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJETOS\FLUTTER_CODS\LABEL_STUDIO_HELPER\BUILD\WINDOWS\CMAKEFILES\728A7EBA0E28E3354C4E4AA23F515FA3\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJETOS\FLUTTER_CODS\LABEL_STUDIO_HELPER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Projetos/Flutter_cods/label_studio_helper/windows -BD:/Projetos/Flutter_cods/label_studio_helper/build/windows --check-stamp-file D:/Projetos/Flutter_cods/label_studio_helper/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

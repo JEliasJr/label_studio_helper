@@ -1,0 +1,10 @@
+^D:\PROJETOS\FLUTTER_CODS\LABEL_STUDIO_HELPER\BUILD\WINDOWS\CMAKEFILES\1BB9B7DC25535866EE1D364A55C7D4A1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Projetos/Flutter_cods/label_studio_helper/windows -BD:/Projetos/Flutter_cods/label_studio_helper/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Projetos/Flutter_cods/label_studio_helper/build/windows/label_studio_helper.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
